@@ -35,8 +35,9 @@ namespace ActorRest2.Controllers
             }
         }
 
-        // GET api/<ActorsController>/5
-        [HttpGet("{id}")]
+
+            // GET api/<ActorsController>/5
+            [HttpGet("{id}")]
         public Actor? Get(int id)
         {
             return _actorsRepository.GetById(id);
