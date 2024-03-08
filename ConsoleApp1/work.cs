@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     public class work
-    {
+    {    private string nsssame;
         private HttpClient client;
         private string URL = "https://actorrest.azurewebsites.net/api/actors"; // Update the URL accordingly
 
